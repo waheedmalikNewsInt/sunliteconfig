@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <config>
-<path>
-<hostURL>login.uat-thesun.co.uk</hostURL>
-<feedsURL>http://feeds.uat-thesun.co.uk/sunlite/global.json</feedsURL>
-<logOutURL>https://login.uat-thesun.co.uk/sso/logout?tenantId=ngn&gotoUrl=closewindow%3A%2F%2Fwww.thesun.co.uk</logOutURL>
-<registrationURL>https://login.uat-thesun.co.uk/user/appPurchase?bUrl=closewindow%3A%2F%2Fwww.thesun.co.uk</registrationURL>
-<receiptVerificationURL>https://login.uat-thesun.co.uk/receipt/verifyReceipt?gotoUrl=closewindow%3A%2F%2Fwww.thesun.co.uk</receiptVerificationURL>
-</path>
+    <version>1.0</version>
+<paths>
+    <hostURL>login.uat-thesun.co.uk</hostURL>
+    <feedsURL>http://feeds.uat-thesun.co.uk/sunlite/global.json</feedsURL>
+    <logOutURL>https://login.uat-thesun.co.uk/sso/logout?tenantId=ngn&gotoUrl=closewindow%3A%2F%2Fwww.thesun.co.uk</logOutURL>
+    <registrationURL>https://login.uat-thesun.co.uk/user/appPurchase?bUrl=closewindow%3A%2F%2Fwww.thesun.co.uk</registrationURL>
+    <receiptVerificationURL>https://login.uat-thesun.co.uk/receipt/verifyReceipt?gotoUrl=closewindow%3A%2F%2Fwww.thesun.co.uk</receiptVerificationURL>
+</paths>
 </config>
